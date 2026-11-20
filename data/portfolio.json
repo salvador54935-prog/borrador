@@ -1,0 +1,193 @@
+{
+  "profile": {
+    "portfolioName": "Archivo & Portafolio Personal",
+    "ownerName": "Sofía Mendoza",
+    "institution": "Facultad de Ciencias y Humanidades",
+    "bio": "Estudiante e investigadora enfocada en ciencias naturales, filosofía contemporánea y diseño de material académico visual.",
+    "welcomePhrase": "Bienvenido a mi espacio personal: trabajos escolares, investigaciones, presentaciones y documentos organizados con claridad.",
+    "avatarUrl": "/src/assets/images/avatar_portfolio_owner_1795147689850.jpg",
+    "showAvatar": true
+  },
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Investigación científica",
+      "coverImage": "/src/assets/images/cover_investigacion_cientifica_1795147690830.jpg",
+      "description": "Recopilación de información sobre científicos y sus descubrimientos.",
+      "createdAt": "2026-11-12",
+      "categoryId": "investigaciones",
+      "course": "Metodología de la Investigación",
+      "tags": [
+        "ciencia",
+        "historia",
+        "investigación"
+      ],
+      "status": "en_proceso",
+      "favorite": true,
+      "featured": true,
+      "relatedFileIds": [
+        "file-seed-1",
+        "file-seed-2"
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "Infografía de filosofía",
+      "coverImage": "/src/assets/images/cover_infografia_filosofia_1795147690861.jpg",
+      "description": "Material visual sobre filosofía contemporánea.",
+      "createdAt": "2026-10-25",
+      "categoryId": "trabajos-escolares",
+      "course": "Filosofía Contemporánea",
+      "tags": [
+        "filosofía",
+        "infografía",
+        "humanidades"
+      ],
+      "status": "terminado",
+      "favorite": true,
+      "featured": true,
+      "relatedFileIds": [
+        "file-seed-3"
+      ]
+    },
+    {
+      "id": "proj-3",
+      "title": "Presentación de ciencias",
+      "coverImage": "/src/assets/images/cover_presentacion_ciencias_1795147690583.jpg",
+      "description": "Presentación académica con imágenes y explicaciones.",
+      "createdAt": "2026-11-05",
+      "categoryId": "exposiciones",
+      "course": "Ciencias Naturales",
+      "tags": [
+        "exposición",
+        "óptica",
+        "ciencias"
+      ],
+      "status": "terminado",
+      "favorite": false,
+      "featured": true,
+      "relatedFileIds": [
+        "file-seed-4"
+      ]
+    }
+  ],
+  "folders": [
+    {
+      "id": "folder-inv-1",
+      "name": "Fuentes y Cronologías",
+      "categoryId": "investigaciones",
+      "parentId": null,
+      "createdAt": "2026-10-15"
+    },
+    {
+      "id": "folder-inv-2",
+      "name": "Notas de Campo",
+      "categoryId": "investigaciones",
+      "parentId": "folder-inv-1",
+      "createdAt": "2026-10-18"
+    },
+    {
+      "id": "folder-esc-1",
+      "name": "Filosofía y Humanidades",
+      "categoryId": "trabajos-escolares",
+      "parentId": null,
+      "createdAt": "2026-09-28"
+    },
+    {
+      "id": "folder-exp-1",
+      "name": "Ponencias 2026",
+      "categoryId": "exposiciones",
+      "parentId": null,
+      "createdAt": "2026-11-02"
+    }
+  ],
+  "files": [
+    {
+      "id": "file-seed-1",
+      "name": "Cronología de Científicos.pdf",
+      "originalName": "Cronología de Científicos.pdf",
+      "mimeType": "application/pdf",
+      "size": 1160,
+      "fileType": "pdf",
+      "categoryId": "investigaciones",
+      "folderId": "folder-inv-1",
+      "projectId": "proj-1",
+      "description": "Resumen documental con hitos históricos y descubrimientos científicos.",
+      "course": "Metodología de la Investigación",
+      "tags": [
+        "ciencia",
+        "historia",
+        "pdf"
+      ],
+      "createdAt": "2026-11-12",
+      "favorite": true,
+      "storageName": "seed-cronologia-cientificos.pdf",
+      "url": "/api/files/file-seed-1/content"
+    },
+    {
+      "id": "file-seed-2",
+      "name": "Bitácora de Investigación.md",
+      "originalName": "Bitácora de Investigación.md",
+      "mimeType": "text/markdown",
+      "size": 359,
+      "fileType": "texto",
+      "categoryId": "investigaciones",
+      "folderId": "folder-inv-2",
+      "projectId": "proj-1",
+      "description": "Registro de avances, hipótesis y referencias bibliográficas.",
+      "course": "Metodología de la Investigación",
+      "tags": [
+        "bitácora",
+        "ciencia"
+      ],
+      "createdAt": "2026-11-14",
+      "favorite": false,
+      "storageName": "seed-bitacora-investigacion.md",
+      "url": "/api/files/file-seed-2/content"
+    },
+    {
+      "id": "file-seed-3",
+      "name": "Esquema Filosofía Contemporánea.svg",
+      "originalName": "Esquema Filosofía Contemporánea.svg",
+      "mimeType": "image/svg+xml",
+      "size": 1859,
+      "fileType": "imagen",
+      "categoryId": "imagenes-disenos",
+      "folderId": null,
+      "projectId": "proj-2",
+      "description": "Lámina visual comparativa entre fenomenología, analítica y teoría crítica.",
+      "course": "Filosofía Contemporánea",
+      "tags": [
+        "filosofía",
+        "infografía",
+        "diseño"
+      ],
+      "createdAt": "2026-10-25",
+      "favorite": true,
+      "storageName": "seed-infografia-filosofia.svg",
+      "url": "/api/files/file-seed-3/content"
+    },
+    {
+      "id": "file-seed-4",
+      "name": "Guion Presentación de Ciencias.txt",
+      "originalName": "Guion Presentación de Ciencias.txt",
+      "mimeType": "text/plain",
+      "size": 358,
+      "fileType": "texto",
+      "categoryId": "exposiciones",
+      "folderId": "folder-exp-1",
+      "projectId": "proj-3",
+      "description": "Estructura por diapositivas y notas de exposición oral sobre óptica.",
+      "course": "Ciencias Naturales",
+      "tags": [
+        "exposición",
+        "óptica",
+        "ciencias"
+      ],
+      "createdAt": "2026-11-05",
+      "favorite": false,
+      "storageName": "seed-guion-presentacion-ciencias.txt",
+      "url": "/api/files/file-seed-4/content"
+    }
+  ]
+}

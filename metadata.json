@@ -1,0 +1,6 @@
+{
+  "name": "Portafolio Virtual Personal",
+  "description": "Portafolio virtual minimalista para organizar proyectos, trabajos escolares, investigaciones, documentos y archivos personales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
